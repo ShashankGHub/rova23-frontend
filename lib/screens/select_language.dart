@@ -178,7 +178,7 @@ class _LanguageSelectionScreenState extends State<LanguageSelectionScreen> {
                   }
                   print('Selected Languages: $selectedLanguages');
                 },
-                child: Text('Next', style: TextStyle(color: const Color.fromARGB(255, 236, 12, 12))),
+                child: Text('Next', style: TextStyle(color: Colors.white)),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Color.fromRGBO(156, 192, 188, 0.882),
                 ),
